@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width="device-width", initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+  <p id="second"></p> 
+  <input id="price" type="number" placeholder="enter price" >
+   <button onclick="changePrice()">O.K</button>
+  <br>
+  <input id="calories" type="text"  onblur="deleteCalories()"placeholder="enter calories" >
+<div id="message"></div>
+<form onsubmit="entermess(event)">
+    <select id="type">
+        <option>info</option>
+        <option>warning</option>
+        <option>error</option>
+    </select>
+    <br>
+    <input id="title" type="text" placeholder="enter title">
+    <br>
+    <textarea id="text">
+    </textarea>
+    <br>
+    <button>okey</button>
+</form>
+   <script src="page.js"></script>
+</body>
+</html>
